@@ -14,7 +14,8 @@ print("La inversa de la respuesta es: {}".format(x2))
 if x1>x2:
     print("La primera respuesta es mayor que la segunda. Gracias por utilizar el programa.")
 else:
-    if x1=x2:
+    if x1==x2:
         print("Las dos respuestas son iguales. Gracias por utilizar el programa")
     else:
         print("La segunda respuesta es mayor a la primera. Gracias por utilizar el programa")
+#Desarrollado por Pedro Gómez / ID:000396221
