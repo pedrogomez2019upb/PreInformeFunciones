@@ -17,7 +17,7 @@ def hermano():
             if (a+1) % contar ==0:
                 contarP= contarP + 1
     #Creamos un if y then para saber si el contador tiene mas de dos divisores
-        if contarP>=2:
+        if contarP>2:
             print("Lo siento, el número no es primo hermano. Gracias por utilizar el programa.")
         else:
             print("Que bien! Tu número es primo hermano. Gracias por utilizar el programa") 
