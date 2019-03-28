@@ -1,5 +1,5 @@
 #Una función que lea un número n imprima todos los números impares de 1 a n.
-#Definimos la función a utilizar
+#Definimos la función a utilizar llamada "Impares"
 def impares(n):
         #Primero vamos a declarar los contadores necesarios para el desarrollo del ejercicio
         i=0
@@ -11,5 +11,3 @@ def impares(n):
                         print("El valor es: {}".format(i))
         print("Muchas gracias por utilizar el programa.")
 #Desarrollado por Pedro Gómez / ID:000396221
-    
-impares(4)
