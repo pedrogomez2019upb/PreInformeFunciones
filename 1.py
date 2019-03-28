@@ -1,6 +1,8 @@
 #Una función que lea un número n imprima todos los números impares de 1 a n.
 #Definimos la función a utilizar llamada "Impares"
-def impares(n):
+def impares():
+        #Solicitar el número
+        n=int(input("Bienvenido ! Vamos a analizar los números impares. Ingresa el final de la cadena: "))
         #Primero vamos a declarar los contadores necesarios para el desarrollo del ejercicio
         i=0
         #Creamos un for para que empiece a hacer el ejercicio

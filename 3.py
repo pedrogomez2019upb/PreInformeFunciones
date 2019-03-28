@@ -1,6 +1,8 @@
 #Realizar una función que permita saber si un número es o no primo
 #Declarar la función para que funcione a base del "número"
-def primo(numero):
+def primo():
+    #Se solicita el número
+    numero=int(input("Hola! Vamos a ver si tu número es primo. Por favor ingresa el número: "))
     #Se crea un for para números primos y su contador que empice desde cero
     contador = 0
     for i in range(1,numero+1):
